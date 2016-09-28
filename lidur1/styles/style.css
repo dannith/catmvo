@@ -1,0 +1,36 @@
+.cat-box {
+	display: inline-block;
+	margin-left: 15px;
+	width: 200px;
+	height: 200px;
+	position: relative;
+	overflow: hidden;
+	border: 1px solid grey;
+	box-sizing: border-box;
+	cursor: default;
+}
+
+.cat-box:first-child {
+	margin-left: 0;
+}
+
+.cat-box img {
+	width: 100%;
+}
+
+.cat-clix {
+    border-top-left-radius: 20px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(20, 53, 17, 0.56);
+    text-align: center;
+    color: white;
+    padding: 5px 5px 2px 10px;
+}
+
+#container {
+	width: 1060px;
+	margin: 0 auto;
+	margin-top: 15%;
+}
